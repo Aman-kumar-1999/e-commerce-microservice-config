@@ -1,5 +1,8 @@
 # EQIPPED_DEFAULT_SERVICE
 
+# port
+server:
+  port: 4999
 
 #eureka server config
 eureka:
