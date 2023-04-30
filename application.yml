@@ -1,3 +1,6 @@
+# EQIPPED_DEFAULT_SERVICE
+
+
 #eureka server config
 eureka:
   instance:
@@ -11,7 +14,7 @@ eureka:
 #spring config  
 spring:
   application:
-    name: EQIPPED_USER_SERVICE
+    name: EQIPPED_DEFAULT_SERVICE
   data:
     mongodb:
       uri: mongodb://localhost:27017
