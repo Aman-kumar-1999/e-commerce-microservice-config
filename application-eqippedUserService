@@ -1,0 +1,21 @@
+# EQIPPED_USER_SERVICE configuration file
+
+
+#eureka server config
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:5000/eureka  
+ 
+#spring config  
+spring:
+  application:
+    name: EQIPPED_USER_SERVICE
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: microservicereatingservice
