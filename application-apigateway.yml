@@ -1,5 +1,7 @@
 # EQIPPED_API_GATEWAY configuration file
 
+server:
+  port: 5002
 
 #eureka server config
 eureka:
