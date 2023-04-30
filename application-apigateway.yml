@@ -16,4 +16,27 @@ eureka:
 #spring config  
 spring:
   application:
-    name: EQIPPED_USER_SERVICE
+    name: EQIPPED_API_GATEWAY
+  cloud:
+    gateway:
+      routes:
+      - id: EQIPPED_USER_SERVICE
+        uri: lb://EQIPPED_USER_SERVICE
+        predicates:
+        - Path=/user/**
+        
+#       - id: HOTAL-SERVICE
+#         uri: lb://HOTAL-SERVICE
+#         predicates:
+#         - Path=/hotel/**
+        # for all urls
+        #- Path=/**
+        # multipule urls for specific controlers
+        #- Path=/hotel/**,/staffe/**
+        
+#       - id: RATING-SERVICE
+#         uri: lb://RATING-SERVICE
+#         predicates:
+#         - Path=/rating/**
+        
+        
