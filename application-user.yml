@@ -1,5 +1,9 @@
 # EQIPPED_USER_SERVICE configuration file
 
+# port
+server:
+  port: 5003
+
 #eureka server config
 eureka:
   instance:
