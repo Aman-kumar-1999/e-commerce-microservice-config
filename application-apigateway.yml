@@ -20,8 +20,8 @@ spring:
   cloud:
     gateway:
       routes:
-      - id: EQIPPED_USER_SERVICE
-        uri: lb://EQIPPED_USER_SERVICE
+      - id: EQIPPED_DEFAULT_SERVICE
+        uri: lb://EQIPPED_DEFAULT_SERVICE
         predicates:
         - Path=/user/**
         
