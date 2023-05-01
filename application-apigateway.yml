@@ -10,9 +10,9 @@ spring:
 server:
   port: 5002
 
-# spring:
-#   application:
-#     name: API-GATEWAY
+spring:
+  application:
+    name: API-GATEWAY
 
 
 eureka:
