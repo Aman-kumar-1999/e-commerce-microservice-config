@@ -1,18 +1,18 @@
-# spring:
-#   cloud:
-#     gateway:
-#       routes:
-#       - id: USER-SERVICE
-#         uri: lb://USER-SERVICE
-#         predicates:
-#         - Path=/user/**
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: USER-SERVICE
+        uri: lb://USER-SERVICE
+        predicates:
+        - Path=/user/**
 
 server:
   port: 5002
 
-spring:
-  application:
-    name: API-GATEWAY
+# spring:
+#   application:
+#     name: API-GATEWAY
 
 
 eureka:
