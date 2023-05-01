@@ -16,8 +16,6 @@ eureka:
  
 #spring config  
 spring:
-#   application:
-#     name: EQIPPED_USER_SERVICE
   data:
     mongodb:
       uri: mongodb://localhost:27017
