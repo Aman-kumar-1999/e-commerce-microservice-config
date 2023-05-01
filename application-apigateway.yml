@@ -23,7 +23,7 @@ spring:
       - id: EQIPPED_USER_SERVICE
         uri: lb://EQIPPED_USER_SERVICE
         predicates:
-          - Path=/user/**
+        - Path=/user/**
         
 #       - id: HOTAL-SERVICE
 #         uri: lb://HOTAL-SERVICE
