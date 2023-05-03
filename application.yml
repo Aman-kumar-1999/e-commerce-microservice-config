@@ -15,10 +15,10 @@ eureka:
       defaultZone: http://localhost:5000/eureka  
  
 #spring config  
-# spring:
-#   application:
-#     name: EQIPPED_DEFAULT_SERVICE
-#   data:
-#     mongodb:
-#       uri: mongodb://localhost:27017
-#       database: microservicereatingservice
+spring:
+  application:
+    name: EQIPPED_DEFAULT_SERVICE
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: microservicereatingservice
