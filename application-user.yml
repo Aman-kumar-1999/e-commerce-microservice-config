@@ -16,19 +16,23 @@ eureka:
 spring:
   application:
     name: USER-SERVICE
-  datasource:
-    url: jdbc:oracle:thin:@localhost:1521:xe
-    username: microserviceUserService
-    password: root
-    driverClassName: oracle.jdbc.OracleDriver
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.Oracle10gDialect
-        format_sql: true
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: eqipped_new
+#   datasource:
+#     url: jdbc:oracle:thin:@localhost:1521:xe
+#     username: microserviceUserService
+#     password: root
+#     driverClassName: oracle.jdbc.OracleDriver
+#   jpa:
+#     hibernate:
+#       ddl-auto: update
+#     show-sql: true
+#     properties:
+#       hibernate:
+#         dialect: org.hibernate.dialect.Oracle10gDialect
+#         format_sql: true
 
 #   config:
 #     import: optional:configserver:http://localhost:5001
@@ -36,8 +40,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: amankumar19990923@gmail.com
-    password: cbcxjmkitakippqj
+    username: gearloose.lab@gmail.com
+    password: jngrwtnaeuaoyord
     properties:
       mail:
         smtp:
