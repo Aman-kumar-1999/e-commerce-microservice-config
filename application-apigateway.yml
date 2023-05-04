@@ -7,7 +7,13 @@ spring:
       - id: USER-SERVICE
         uri: lb://USER-SERVICE
         predicates:
-        - Path=/user/**
+        - Path=/**
+#         for all urls
+#         - Path=/**
+#         for single rest controller
+#         - Path=/user/**
+#         multipule urls for specific controlers
+#         - Path=/hotel/**,/staffe/**
 
 server:
   port: 5002
