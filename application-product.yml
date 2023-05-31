@@ -13,9 +13,9 @@ eureka:
       defaultZone: http://3.7.18.180:5000/eureka
 # Eureka End
 project:
-  image: /home/eqipped/image/
+  image: /var/www/html/image/
 #   upload: D:\\eqipped\\eqipped_image
-  upload: /home/eqipped/image
+  upload: /var/www/html/image
 
 # Spring Start
 spring:
