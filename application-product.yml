@@ -13,14 +13,15 @@ eureka:
       defaultZone: http://3.7.18.180:5000/eureka
 # Eureka End
 project:
-  image: images/
+  image: /images/
+  upload: D:\\eqipped\\eqipped_image
 # Spring Start
 spring:
   application:
     name: PRODUCT-SERVICE
   data:
     mongodb:
-      uri: mongodb+srv://admin:gsk3E1ZwjWwgqAoC@cluster0.9xkoq.mongodb.net/
+      uri: mongodb://admin:gsk3E1ZwjWwgqAoC@cluster0-shard-00-00.9xkoq.mongodb.net:27017,cluster0-shard-00-01.9xkoq.mongodb.net:27017,cluster0-shard-00-02.9xkoq.mongodb.net:27017/?replicaSet=atlas-ndnizx-shard-0&ssl=true&authSource=admin
       database: eqipped_new
   servlet:
     multipart:
