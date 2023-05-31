@@ -14,7 +14,9 @@ eureka:
 # Eureka End
 project:
   image: /images/
-  upload: D:\\eqipped\\eqipped_image
+#   upload: D:\\eqipped\\eqipped_image
+  upload:: /home/eqipped/image
+
 # Spring Start
 spring:
   application:
