@@ -14,8 +14,8 @@ eureka:
 # Eureka End
 project:
   image: http://3.6.36.232/image/
-#   upload: D:\\eqipped\\eqipped_image
-  upload: /var/www/html/image
+  upload: D:\\eqipped\\eqipped_image
+#   upload: /var/www/html/image
 
 # Spring Start
 spring:
