@@ -41,8 +41,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: gearloose.lab@gmail.com
-    password: jngrwtnaeuaoyord
+    username: amankumar19990923@gmail.com
+    password: cbcxjmkitakippqj
     properties:
       mail:
         smtp:
