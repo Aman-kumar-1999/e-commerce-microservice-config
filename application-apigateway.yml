@@ -8,7 +8,7 @@ spring:
       globalcors:      
         corsConfigurations:            
           '[/**]':
-              allowedOrigins: "https://www.eqipped.com"
+              allowedOrigins: "*"
               allowedMethods: "*"
               allowedHeaders: "*"
               allow-credentials: false
