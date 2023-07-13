@@ -11,7 +11,7 @@ spring:
               allowedOrigins: "*"
               allowedMethods: "*"
               allowedHeaders: "*"
-              allow-credentials: true
+              allow-credentials: false
       routes:
       - id: USER-SERVICE
         uri: lb://USER-SERVICE
