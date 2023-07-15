@@ -1,7 +1,9 @@
 
 server:
   port: 5004
-
+key:
+ campaigname: order_test
+ source: Web api
 # Eureka start
 eureka:
   instance:
