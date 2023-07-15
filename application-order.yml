@@ -4,7 +4,7 @@ server:
 key:
   campaigname: order_test
   source: Web api
-  templateparams: No
+  templateparams: Not
 # Eureka start
 eureka:
   instance:
