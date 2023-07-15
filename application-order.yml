@@ -6,6 +6,7 @@ key:
   updatecampaigname: order_test
   source: Web api
   templateparams: Not
+  updatetemplateParams: Not
 # Eureka start
 eureka:
   instance:
