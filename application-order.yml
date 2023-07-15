@@ -4,6 +4,7 @@ server:
 key:
   campaigname: order_test
   source: Web api
+  templateparams: No
 # Eureka start
 eureka:
   instance:
