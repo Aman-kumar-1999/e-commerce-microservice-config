@@ -3,6 +3,7 @@ server:
   port: 5004
 key:
   campaigname: order_test
+  updatecampaigname: order_test
   source: Web api
   templateparams: Not
 # Eureka start
