@@ -41,12 +41,12 @@ spring:
 
   mail:
     host: smtp.gmail.com
-    # port: 465
-    # username: gearloose.lab@gmail.com
-    # password: jngrwtnaeuaoyord
-    port: 587    
-    username: amankumar19990923@gmail.com
-    password: cbcxjmkitakippqj
+    port: 587
+    username: gearloose.lab@gmail.com
+    password: jijknjiwmvygfrqs
+    # port: 587    
+    # username: amankumar19990923@gmail.com
+    # password: cbcxjmkitakippqj
     properties:
       mail:
         smtp:
