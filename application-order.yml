@@ -2,11 +2,11 @@
 server:
   port: 5004
 key:
-  campaigname: order_test
-  updatecampaigname: order_test
+  campaigname: confirmed_order_param(6)
+  updatecampaigname: confirmed_order_param(6)
   source: Web api
-  templateparams: Not
-  updatetemplateParams: Not
+  templateparams: Yes
+  updatetemplateParams: Yes
 # Eureka start
 eureka:
   instance:
