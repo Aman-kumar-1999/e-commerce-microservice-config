@@ -2,8 +2,8 @@
 server:
   port: 5004
 key:
-  campaigname: confirmed_order(2)
-  updatecampaigname: confirmed_order(2)
+  campaigname: Order_Confirmed(3)
+  updatecampaigname: Order_Confirmed(3)
   source: Web api
   templateparams: Yes
   updatetemplateParams: Yes
