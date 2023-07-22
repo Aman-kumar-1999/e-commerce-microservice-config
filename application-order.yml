@@ -16,7 +16,8 @@ eureka:
     register-with-eureka: true
     service-url:
 #       defaultZone: http://3.7.18.180:5000/eureka/ # for codea2z
-      defaultZone: http://44.210.146.251:5000/eureka/ # for eqipped
+      # defaultZone: http://44.210.146.251:5000/eureka/ # for eqipped
+      defaultZone: http://13.233.173.112:5000/eureka/ # personal for eqipped
 # Eureka End
 
 # Spring Start
